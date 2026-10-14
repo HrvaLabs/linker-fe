@@ -9,7 +9,7 @@ Source repository: [HrvaLabs/linker-fe](https://github.com/HrvaLabs/linker-fe).
 Signed out, links live only in the browser (`localStorage`) — no accounts, no
 analytics, no external scripts, nothing leaves the device. Sign-in is optional:
 it turns on cross-device sync against the Ladica Sync backend (see
-[Sinkronizacija (opcionalno)](#sinkronizacija-opcionalno)).
+[optional sync](#optional-sync)).
 
 ## Stack
 
@@ -43,7 +43,7 @@ npm run preview    # serve the production build locally
 The PWA service worker is only active in the production build (`build` + `preview`),
 not in `dev`.
 
-## Sinkronizacija (opcionalno)
+## Optional sync
 
 The app is local-first and works fully signed-out. Signing in (Google or e-mail
 magic-link) is opt-in and turns on cross-device sync against the **Ladica Sync
@@ -114,5 +114,5 @@ Storage is behind a small adapter interface (`src/components/app/lib/storage.ts`
 which keeps the on-device working copy local-first. On top of it, optional cloud
 sync is implemented in `src/components/app/lib/{auth,api,sync}.ts`: it reconciles
 localStorage with the Ladica Sync backend (last-write-wins on `updatedAt`, with
-soft-delete tombstones). See [Sinkronizacija (opcionalno)](#sinkronizacija-opcionalno)
+soft-delete tombstones). See [optional sync](#optional-sync)
 to point it at a backend.
