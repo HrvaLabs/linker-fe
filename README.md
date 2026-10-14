@@ -1,8 +1,10 @@
 # Ladica
 
 Dead-simple link saver — **spremi linkove, otvori jednim dodirom**. Croatian,
-mobile-first, local-first PWA. A [HrvaLabs.net](https://hrvalabs.net) project at
-[ladica.hrva.cc](https://ladica.hrva.cc).
+mobile-first, local-first PWA. A [HrvaLabs](https://hrvalabs.net/) project,
+deployed at [ladica.hrva.cc](https://ladica.hrva.cc).
+
+Source repository: [HrvaLabs/linker-fe](https://github.com/HrvaLabs/linker-fe).
 
 Signed out, links live only in the browser (`localStorage`) — no accounts, no
 analytics, no external scripts, nothing leaves the device. Sign-in is optional:
@@ -71,14 +73,23 @@ PWA icons are generated from `src/assets-src/*.svg`:
 npm run gen:icons  # writes public/assets/icon-{192,512,512-maskable}.png
 ```
 
-## Deploy — Cloudflare Pages
+## Deploy — Cloudflare Workers
 
-1. Push this repo to your Git host and connect it in the Cloudflare Pages dashboard.
-2. Build command: `npm run build` · Output directory: `dist`.
-3. Add the custom domain `ladica.hrva.cc` (HTTPS is automatic — required for the
-   service worker).
+This repository is connected to the existing Cloudflare Worker `linker-fe`
+through **Workers Builds** (GitHub organization `HrvaLabs`, branch `main`).
 
-Cache headers for the SW, manifest, and assets are in `public/_headers`.
+- **Build command:** `npm run build` (Astro static output in `dist/`).
+- **Deploy command:** `npx wrangler deploy`.
+- **Production Worker:** `linker-fe`.
+- **Custom domain:** `ladica.hrva.cc` (attached directly to the Worker).
+
+Pushes to `main` trigger automated builds and production deployments.
+The Cloudflare Worker and custom domain are managed independently from the
+GitHub repository owner, so no replacement Worker or DNS change is needed.
+
+Cloudflare's build integration must have access to the `HrvaLabs` GitHub
+organization and this repository. Cache headers for the service worker,
+manifest, and static assets live in `public/_headers`.
 
 ## Project layout
 
