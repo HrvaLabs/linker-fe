@@ -23,7 +23,7 @@ const hr: Record<string, string> = {
   'foot.contact': 'Kontakt:',
   'foot.privacy': 'Privatnost i uvjeti',
   'foot.legal':
-    '© 2026 <a href="https://ladica.hrva.cc">ladica.hrva.cc</a> · A <a href="https://hrvalabs.net">HrvaLabs.net</a> project · All rights reserved',
+    '© 2026 <a href="https://ladica.hrva.cc">ladica.hrva.cc</a> · A <a href="https://hrvalabs.net/">HrvaLabs</a> project · All rights reserved',
   'brand.by': 'HrvaLabs',
 
   // ── Shared demo / preview content (phone mock-ups) ──────────────────────
@@ -178,7 +178,7 @@ const en: Record<string, string> = {
   'foot.contact': 'Contact:',
   'foot.privacy': 'Privacy & terms',
   'foot.legal':
-    '© 2026 <a href="https://ladica.hrva.cc">ladica.hrva.cc</a> · A <a href="https://hrvalabs.net">HrvaLabs.net</a> project · All rights reserved',
+    '© 2026 <a href="https://ladica.hrva.cc">ladica.hrva.cc</a> · A <a href="https://hrvalabs.net/">HrvaLabs</a> project · All rights reserved',
   'brand.by': 'HrvaLabs',
 
   // ── Shared demo / preview content (phone mock-ups) ──────────────────────
