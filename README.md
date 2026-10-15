@@ -47,7 +47,7 @@ not in `dev`.
 
 The app is local-first and works fully signed-out. Signing in (Google or e-mail
 magic-link) is opt-in and turns on cross-device sync against the **Ladica Sync
-backend** (the `linker-be` service). Without a reachable backend, sync simply
+backend** ([HrvaLabs/linker-be](https://github.com/HrvaLabs/linker-be)). Without a reachable backend, sync simply
 stays idle — the local experience is unchanged.
 
 The backend base URL comes from `PUBLIC_API_BASE` (an Astro `PUBLIC_*` env, so it
@@ -62,7 +62,7 @@ PUBLIC_API_BASE=https://ladica-api.hrva.cc
 PUBLIC_API_BASE=http://localhost:8080 npm run dev
 ```
 
-Using sync requires the `linker-be` backend to be deployed (or running locally at
+Using sync requires the [Ladica Sync backend](https://github.com/HrvaLabs/linker-be) to be deployed (or running locally at
 `http://localhost:8080`). See `docs/superpowers/plans/2026-06-26-ladica-sync-backend.md`.
 
 ## Icons
