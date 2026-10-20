@@ -20,3 +20,6 @@ npm-debug.log*
 .env
 .env.*
 !.env.example
+
+# wrangler local state
+.wrangler

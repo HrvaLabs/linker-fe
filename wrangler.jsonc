@@ -1,0 +1,8 @@
+{
+  "$schema": "https://unpkg.com/wrangler@4/config-schema.json",
+  "name": "linker-fe",
+  "compatibility_date": "2026-10-12",
+  "assets": {
+    "directory": "./dist"
+  }
+}
