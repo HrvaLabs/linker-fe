@@ -13,25 +13,22 @@ describe('LinkCard', () => {
   });
 
   it('emits open when Otvori is clicked', async () => {
-    const { getByLabelText, component } = render(LinkCard, { props: { link } });
     const handler = vi.fn();
-    component.$on('open', handler);
+    const { getByLabelText } = render(LinkCard, { props: { link }, events: { open: handler } });
     await fireEvent.click(getByLabelText('Otvori: Test'));
     expect(handler).toHaveBeenCalledTimes(1);
   });
 
   it('emits delete when Obriši is clicked', async () => {
-    const { getByLabelText, component } = render(LinkCard, { props: { link } });
     const handler = vi.fn();
-    component.$on('delete', handler);
+    const { getByLabelText } = render(LinkCard, { props: { link }, events: { delete: handler } });
     await fireEvent.click(getByLabelText('Obriši: Test'));
     expect(handler).toHaveBeenCalledTimes(1);
   });
 
   it('emits qr when QR is clicked', async () => {
-    const { getByLabelText, component } = render(LinkCard, { props: { link } });
     const handler = vi.fn();
-    component.$on('qr', handler);
+    const { getByLabelText } = render(LinkCard, { props: { link }, events: { qr: handler } });
     await fireEvent.click(getByLabelText('QR kod: Test'));
     expect(handler).toHaveBeenCalledTimes(1);
   });

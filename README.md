@@ -17,13 +17,13 @@ it turns on cross-device sync against the Ladica Sync backend (see
 - **Svelte island** — the app (`/app`) is an interactive component (`client:only`).
 - **@vite-pwa/astro** (Workbox) — installable, offline-capable PWA.
 
-> **On versions:** This is intentionally on Astro 4 + Svelte 4. `@astrojs/sitemap` is
-> pinned to `3.2.1` — the last release compatible with Astro 4 (newer 3.7.x requires an
-> Astro 5+ build hook). Astro 7 isn't an option yet because `@vite-pwa/astro` supports
-> Astro ≤5. The Svelte advisories flagged by `npm audit` are **SSR-only** XSS issues;
-> this app never server-renders Svelte (the island is `client:only`), so they don't
-> apply to the shipped site. Revisit when `@vite-pwa/astro` gains Astro 7 support or when
-> server sync is added.
+> **On versions:** Astro 7 + Svelte 5 (the components still use Svelte 4 syntax, which
+> Svelte 5 runs in legacy mode). Astro 7 needs Node.js 22.22 or newer. `@vite-pwa/astro`
+> 1.2.0 still declares support only up to Astro 5 and `vite-plugin-pwa` 1.x (Vite ≤7), so
+> `overrides` in `package.json` point those two peers at the project's own `astro` and
+> `vite-plugin-pwa` 2.x. The integration only uses the `astro:config:setup` and
+> `astro:build:done` hooks, and the generated `sw.js` and manifest match the Astro 4
+> build. Drop that override once `@vite-pwa/astro` declares Astro 7 support.
 
 ## Develop
 

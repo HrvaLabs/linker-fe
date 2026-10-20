@@ -13,20 +13,26 @@
     "gen:icons": "node scripts/gen-icons.mjs"
   },
   "dependencies": {
-    "@astrojs/sitemap": "3.2.1",
-    "@astrojs/svelte": "^5.7.3",
-    "astro": "^4.16.18",
+    "@astrojs/sitemap": "^3.7.4",
+    "@astrojs/svelte": "^9.1.0",
+    "astro": "^7.4.1",
     "qrcode": "^1.5.4",
-    "svelte": "^4.2.19"
+    "svelte": "^5.57.2"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/svelte": "^5.2.4",
-    "@vite-pwa/astro": "^0.5.0",
+    "@vite-pwa/astro": "^1.2.0",
     "jsdom": "^25.0.1",
-    "sharp": "^0.33.5",
-    "vite-plugin-pwa": "^0.21.1",
-    "vitest": "^2.1.8"
+    "sharp": "^0.35.5",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^4.1.12"
+  },
+  "overrides": {
+    "@vite-pwa/astro": {
+      "astro": "$astro",
+      "vite-plugin-pwa": "$vite-plugin-pwa"
+    }
   }
 }

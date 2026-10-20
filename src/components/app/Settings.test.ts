@@ -11,9 +11,8 @@ beforeEach(() => {
 
 describe('Settings', () => {
   it('emits export when Izvezi is clicked', async () => {
-    const { getByText, component } = render(Settings, { props: { open: true } });
     const handler = vi.fn();
-    component.$on('export', handler);
+    const { getByText } = render(Settings, { props: { open: true }, events: { export: handler } });
     await fireEvent.click(getByText('Izvezi'));
     expect(handler).toHaveBeenCalledTimes(1);
   });
