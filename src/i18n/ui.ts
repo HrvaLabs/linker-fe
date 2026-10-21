@@ -33,16 +33,16 @@ const hr: Record<string, string> = {
   'demo.open': 'Otvori',
   'demo.cardCook': 'Recept za sarmu',
   'demo.cardCookUrl': 'coolinarika.com/recepti',
-  'demo.cardShop': 'Konzum web trgovina',
+  'demo.cardShop': 'Konzum web-trgovina',
   'demo.cardShopUrl': 'konzum.hr',
   'demo.add': 'Dodaj link',
 
   // ── Launcher (index) ────────────────────────────────────────────────────
   'index.title': 'Ladica · spremi linkove, otvori jednim dodirom',
   'index.description':
-    'Spremi linkove iz bilo koje aplikacije i otvori ih jednim dodirom. Bez prijave sve ostaje na uređaju i radi bez interneta; sinkronizacija po želji.',
+    'Spremi linkove iz bilo koje aplikacije i otvori ih jednim dodirom. Bez prijave sve ostaje na tvom uređaju, a Ladica radi i bez interneta. Sinkronizacija je po želji.',
   'index.tagline': 'Spremi linkove. Otvori jednim dodirom.',
-  'index.appTileAria': 'Otvori Ladicu — aplikaciju za spremanje linkova',
+  'index.appTileAria': 'Otvori Ladicu, aplikaciju za spremanje linkova',
   'index.appLabel': 'Aplikacija',
   'index.savedOnDevice': 'Spremljeno na uređaju',
   'index.tileCta': 'Otvori Ladicu',
@@ -50,120 +50,120 @@ const hr: Record<string, string> = {
   'index.howSub': 'Kratak pregled u tri koraka.',
   'index.qrAlt': 'QR kod za ladica.hrva.cc',
   'index.qrTitle': 'Otvori na mobitelu',
-  'index.qrSub': 'Skeniraj kod kamerom telefona — ',
+  'index.qrSub': 'Skeniraj kod kamerom mobitela ili upiši ',
   'index.footNote':
     'Bez prijave linkovi ostaju na uređaju · sinkronizaciju uključuješ samo ako želiš',
 
   // ── Landing ─────────────────────────────────────────────────────────────
-  'landing.title': 'Ladica · spremi i otvori jednim dodirom',
+  'landing.title': 'Ladica · spremi linkove i otvori ih jednim dodirom',
   'landing.description':
-    'Ladica drži tvoje linkove na okupu — recepti, kupovina, putovanja, posao — posloženo po kategorijama. Bez prijave sve ostaje na uređaju i radi bez interneta; sinkronizaciju uključuješ samo ako želiš.',
+    'Ladica drži tvoje linkove na okupu i slaže ih po kategorijama: recepti, kupovina, putovanja, posao. Radi i bez interneta, a bez prijave sve ostaje na tvom uređaju. Sinkronizaciju uključuješ samo ako želiš.',
   'landing.navOpen': 'Otvori aplikaciju',
   'landing.eyebrow': 'Tvoji linkovi, uvijek pri ruci',
   'landing.h1': 'Spremi linkove.<br>Otvori jednim dodirom.',
   'landing.lead':
-    'Ladica drži tvoje linkove na okupu — recepti, kupovina, putovanja, posao — lijepo posloženo po kategorijama. Bez registracije i bez gnjavaže.',
+    'Ladica drži tvoje linkove na okupu i lijepo ih slaže po kategorijama: recepti, kupovina, putovanja, posao. Bez registracije i bez gnjavaže.',
   'landing.ctaOpen': 'Otvori aplikaciju',
   'landing.ctaHow': 'Kako radi',
   'landing.note':
-    'Bez prijave sve ostaje na tvom uređaju — sinkronizaciju uključuješ samo ako želiš.',
+    'Bez prijave sve ostaje na tvom uređaju, a sinkronizaciju uključuješ samo ako želiš.',
   'landing.phoneTitle': 'Ladica',
   'landing.phoneSub': 'Spremi link i otvori ga jednim dodirom.',
   'landing.feat.title': 'Bez kompliciranja',
-  'landing.feat.sub': 'Velike tipke, jasni nazivi i ništa suvišno na ekranu.',
+  'landing.feat.sub': 'Veliki gumbi, jasni nazivi i ništa suvišno na zaslonu.',
   'landing.feat.1.h': 'Otvori jednim dodirom',
   'landing.feat.1.p':
-    'Velika zelena tipka „Otvori” na svakom linku — bez traženja i prepisivanja adrese.',
+    'Svaki link ima veliki zeleni gumb „Otvori”. Nema traženja ni prepisivanja adrese.',
   'landing.feat.2.h': 'Posloženo po kategorijama',
   'landing.feat.2.p':
-    'Kuhanje, Kupovina, Putovanja, Posao, Učenje i Ostalo — svaka u svojoj boji pa se brzo snađeš.',
-  'landing.feat.3.h': 'Spremi u par sekundi',
+    'Kuhanje, Kupovina, Putovanja, Posao, Učenje i Ostalo: svaka kategorija ima svoju boju, pa se brzo snađeš.',
+  'landing.feat.3.h': 'Spremi za nekoliko sekundi',
   'landing.feat.3.p':
-    'Iz bilo koje aplikacije: Podijeli → Ladica i adresa je već upisana. Ili u Ladici dodirneš „Dodaj link” pa zalijepiš adresu.',
+    'U bilo kojoj aplikaciji odaberi Podijeli → Ladica i adresa je već upisana. Ili u Ladici dodirni „Dodaj link” i zalijepi adresu.',
   'landing.how.title': 'Kako radi',
-  'landing.how.sub': 'U tri koraka i link ti je pri ruci.',
-  'landing.step.1.h': 'Podijeli u Ladicu',
-  'landing.step.1.p': 'U bilo kojoj aplikaciji dodirni Podijeli → Ladica i adresa se sama upiše. Ili u Ladici dodirni „Dodaj link” pa je zalijepi ili upiši.',
+  'landing.how.sub': 'Tri koraka i link ti je pri ruci.',
+  'landing.step.1.h': 'Pošalji link u Ladicu',
+  'landing.step.1.p': 'U bilo kojoj aplikaciji dodirni Podijeli → Ladica i adresa će se sama upisati. Ili u Ladici dodirni „Dodaj link” pa je zalijepi ili upiši.',
   'landing.step.2.h': 'Odaberi kategoriju',
-  'landing.step.2.p': 'Razvrstaj link u Kuhanje, Posao, Putovanja ili neku drugu kategoriju i spremi ga.',
-  'landing.step.3.h': 'Otvori kad zatreba',
-  'landing.step.3.p': 'Pronađi ga pretragom ili filterom po kategoriji i otvori jednim dodirom.',
+  'landing.step.2.p': 'Svrstaj link u kategoriju Kuhanje, Posao, Putovanja ili neku drugu i spremi ga.',
+  'landing.step.3.h': 'Otvori kad ti zatreba',
+  'landing.step.3.p': 'Pronađi ga pretragom ili filtrom po kategoriji i otvori jednim dodirom.',
   'landing.faq.title': 'Česta pitanja',
   'landing.faq.1.q': 'Je li Ladica besplatna?',
   'landing.faq.1.a': 'Da, u potpunosti. Nema registracije ni oglasa.',
   'landing.faq.2.q': 'Gdje se spremaju moji linkovi?',
   'landing.faq.2.a':
-    'Bez prijave spremaju se lokalno na tvom uređaju, u pregledniku, i rade i bez interneta. Ako se prijaviš, mogu se sinkronizirati na sve tvoje uređaje — no to je posve neobavezno.',
-  'landing.faq.3.q': 'Moram li napraviti račun?',
+    'Bez prijave spremaju se lokalno, u pregledniku na tvom uređaju, pa su ti dostupni i bez interneta. Ako se prijaviš, linkovi se sinkroniziraju na svim tvojim uređajima, ali to nije obvezno.',
+  'landing.faq.3.q': 'Moram li izraditi korisnički račun?',
   'landing.faq.3.a':
-    'Ne moraš. Otvoriš Ladicu i odmah spremaš linkove. Prijava služi samo za sinkronizaciju i posve je neobavezna.',
-  'landing.faq.4.q': 'Mogu li koristiti Ladicu kao aplikaciju na telefonu?',
+    'Ne moraš. Otvoriš Ladicu i odmah spremaš linkove. Prijava služi samo za sinkronizaciju i posve je neobvezna.',
+  'landing.faq.4.q': 'Mogu li Ladicu koristiti kao aplikaciju na mobitelu?',
   'landing.faq.4.a':
-    'Da. Dodaj je na početni zaslon i otvara se kao prava aplikacija — preko cijelog ekrana i bez interneta.',
-  'landing.faq.5.q': 'Kako prenijeti linkove na novi telefon?',
+    'Da. Dodaj je na početni zaslon i otvarat će se kao prava aplikacija, na cijelom zaslonu i bez interneta.',
+  'landing.faq.5.q': 'Kako prenijeti linkove na novi mobitel?',
   'landing.faq.5.a':
-    'Najlakše se prijaviš pa se linkovi sami sinkroniziraju. Ako ne želiš prijavu, u postavkama izvezi sigurnosnu kopiju (.json) i uvezi je na novom uređaju.',
-  'landing.cta.h': 'Da spremimo prvi link?',
-  'landing.cta.p': 'Bez prijave i bez čekanja — prvi link spremiš u par sekundi.',
+    'Najlakše je prijaviti se, pa će se linkovi sami sinkronizirati. Ako se ne želiš prijaviti, u postavkama izvezi sigurnosnu kopiju (.json) i uvezi je na novom uređaju.',
+  'landing.cta.h': 'Hoćemo li spremiti prvi link?',
+  'landing.cta.p': 'Bez prijave i bez čekanja: prvi link spremiš za nekoliko sekundi.',
   'landing.cta.btn': 'Otvori aplikaciju',
   'landing.footTagline':
-    'Ladica — tvoja ladica za linkove. Radi bez interneta i ne prati te.',
+    'Ladica – tvoja ladica za linkove. Radi bez interneta i ne prati te.',
 
   // ── Privacy & terms ─────────────────────────────────────────────────────
   'privacy.title': 'Privatnost i uvjeti korištenja · Ladica',
   'privacy.description':
-    'Kako Ladica postupa s podacima i uvjeti korištenja. Bez prijave linkovi ostaju na vašem uređaju; sinkronizaciju (i pohranu na poslužitelju) uključujete samo ako se prijavite.',
-  'privacy.topbarBack': 'Natrag na aplikaciju',
+    'Kako Ladica postupa s Vašim podacima i pod kojim je uvjetima možete koristiti. Bez prijave linkovi ostaju na Vašem uređaju, a sinkronizaciju i pohranu na poslužitelju uključujete samo ako se prijavite.',
+  'privacy.topbarBack': 'Natrag u aplikaciju',
   'privacy.h1': 'Privatnost i uvjeti korištenja',
-  'privacy.updatedLabel': 'Zadnja izmjena:',
+  'privacy.updatedLabel': 'Posljednja izmjena:',
   'privacy.updated': '26. lipnja 2026.',
   'privacy.tldr':
-    '<strong>Ukratko:</strong> Bez prijave Ladica ne traži registraciju, ne koristi kolačiće, ne prikuplja osobne podatke i ne prati korisnike — vaši linkovi spremaju se isključivo na vašem uređaju (u pregledniku). Nema analitike, nema oglasa, nema profiliranja. Sinkronizacija je neobavezna: ako se prijavite, vaša e-pošta i linkovi čuvaju se na našem poslužitelju kako bi bili dostupni na svim uređajima (vidi „Kad se prijavite”).',
+    '<strong>Ukratko:</strong> Ladica ne traži registraciju. Dok niste prijavljeni, ne koristi kolačiće, ne prikuplja osobne podatke i ne prati korisnike, a Vaši se linkovi spremaju isključivo na Vašem uređaju (u pregledniku). Nema analitike, oglasa ni profiliranja. Sinkronizacija je neobvezna: ako se prijavite, Vaša adresa e-pošte i linkovi čuvaju se na našem poslužitelju kako bi bili dostupni na svim Vašim uređajima (v. odjeljak „Kad se prijavite”).',
   'privacy.h.who': 'Tko stoji iza Ladice',
   'privacy.p.who':
-    'Ladica (<a href="https://ladica.hrva.cc">ladica.hrva.cc</a>) besplatan je hobi-projekt platforme <a href="https://hrvalabs.net">HrvaLabs.net</a>, koja je ujedno voditelj obrade podataka u smislu članka 4. stavka 7. Opće uredbe o zaštiti podataka (GDPR). Kontakt: <a href="mailto:ladica@hrvalabs.net">ladica@hrvalabs.net</a>.',
-  'privacy.h.where': 'Gdje se spremaju vaši linkovi',
+    'Ladica (<a href="https://ladica.hrva.cc">ladica.hrva.cc</a>) besplatan je hobi-projekt platforme <a href="https://hrvalabs.net">HrvaLabs.net</a>, koja je ujedno voditelj obrade podataka u smislu članka 4. točke 7. Opće uredbe o zaštiti podataka (GDPR). Kontakt: <a href="mailto:ladica@hrvalabs.net">ladica@hrvalabs.net</a>.',
+  'privacy.h.where': 'Gdje se spremaju Vaši linkovi',
   'privacy.p.where':
-    'Dok niste prijavljeni, linkovi koje spremite čuvaju se lokalno u vašem pregledniku (<em>localStorage</em>, stavka „ladica-links-v1”). Taj podatak ostaje isključivo na vašem uređaju i ne šalje se na poslužitelj niti ga itko drugi može vidjeti. Ako obrišete podatke preglednika ili promijenite uređaj, linkovi se mogu izgubiti — zato postoji izvoz sigurnosne kopije (vidi niže), a od nedavno i neobavezna sinkronizacija opisana u sljedećem odjeljku.',
+    'Dok niste prijavljeni, linkovi koje spremite čuvaju se lokalno u Vašem pregledniku (<em>localStorage</em>, stavka „ladica-links-v1”). Ti podaci ostaju isključivo na Vašem uređaju, ne šalju se na poslužitelj i ne može ih vidjeti nitko drugi. Ako obrišete podatke preglednika ili promijenite uređaj, linkovi se mogu izgubiti. Zato postoji izvoz sigurnosne kopije (v. niže), a odnedavno i neobvezna sinkronizacija opisana u sljedećem odjeljku.',
   'privacy.h.signin': 'Kad se prijavite (sinkronizacija)',
   'privacy.p.signin':
-    'Prijava je posve neobavezna. Ako se prijavite — putem Googlea ili poveznice za prijavu poslane e-poštom — uključujete sinkronizaciju. Tada Ladica čuva vašu <strong>e-poštu</strong>, vaše <strong>spremljene linkove</strong> i pripadajuće <strong>vremenske oznake</strong> na poslužitelju platforme HrvaLabs, kako bi vaši linkovi bili dostupni na svim vašim uređajima. Poslužitelj se nalazi kod pružatelja Oracle Cloud (Docker), u Njemačkoj.',
+    'Prijava je posve neobvezna. Ako se prijavite – putem Googlea ili putem linka za prijavu koji Vam pošaljemo e-poštom – uključujete sinkronizaciju. Tada Ladica na poslužitelju platforme HrvaLabs čuva Vašu <strong>adresu e-pošte</strong>, Vaše <strong>spremljene linkove</strong> i pripadajuće <strong>vremenske oznake</strong> kako bi linkovi bili dostupni na svim Vašim uređajima. Poslužitelj se nalazi u Njemačkoj, kod pružatelja usluge Oracle Cloud (Docker).',
   'privacy.p.signinLegal':
     '<strong>Pravna osnova.</strong> Ove podatke obrađujemo radi izvršenja ugovora o usluzi sinkronizacije koju ste zatražili prijavom (članak 6. stavak 1. točka (b) GDPR-a).',
   'privacy.p.signinEmail':
-    '<strong>E-pošta.</strong> Za prijavu poveznicom transakcijsku e-poštu šaljemo preko pružatelja usluge SendPulse. Pritom se obrađuje samo vaša adresa e-pošte i to isključivo radi isporuke poruke za prijavu.',
+    '<strong>E-pošta.</strong> Link za prijavu šaljemo e-porukom putem pružatelja usluge SendPulse. Pritom se obrađuje samo Vaša adresa e-pošte, i to isključivo radi dostave poruke za prijavu.',
   'privacy.p.signinTokens':
-    '<strong>Tokeni za prijavu.</strong> Poveznica za prijavu i token (JWT) koji vas drži prijavljenima tehnički su nužni za rad sinkronizacije i ne koriste se za praćenje.',
+    '<strong>Tokeni za prijavu.</strong> Link za prijavu i token (JWT) koji Vas drži prijavljenima tehnički su nužni za sinkronizaciju i ne koriste se za praćenje.',
   'privacy.p.signinDelete':
-    '<strong>Brisanje računa.</strong> U svakom trenutku u aplikaciji možete odabrati <em>„Obriši račun”</em> — time se vaš račun i svi linkovi pohranjeni u oblaku trajno brišu s poslužitelja. Linkovi spremljeni lokalno na uređaju pritom ostaju kod vas.',
+    '<strong>Brisanje računa.</strong> U aplikaciji u svakom trenutku možete odabrati <em>„Obriši račun”</em>. Time se Vaš račun i svi linkovi pohranjeni u oblaku trajno brišu s poslužitelja, a linkovi spremljeni lokalno na uređaju ostaju kod Vas.',
   'privacy.h.cookies': 'Kolačići i praćenje',
   'privacy.p.cookies':
-    'Ladica ne koristi kolačiće, ne koristi analitiku (npr. Google Analytics), ne učitava vanjske skripte i ne prati vaše ponašanje. Fontovi su sistemski (oni koje vaš uređaj već ima), pa se ništa ne dohvaća s vanjskih poslužitelja fontova.',
+    'Ladica ne koristi kolačiće ni analitiku (npr. Google Analytics), ne učitava vanjske skripte i ne prati Vaše ponašanje. Koristi sistemske fontove, one koje Vaš uređaj već ima, pa se ništa ne dohvaća s vanjskih poslužitelja fontova.',
   'privacy.h.technical': 'Tehnički nužni podaci',
   'privacy.p.technical':
-    'Kao i svaka web-stranica, Ladica se poslužuje preko pružatelja usluge hostinga (Cloudflare Pages). Pri svakom posjetu pružatelj može, u tehničke svrhe (sigurnost i isporuka sadržaja), privremeno zabilježiti podatke poput IP adrese. To je nužno za rad svake internetske stranice, ne koristi se za praćenje i mi ga ne pohranjujemo.',
+    'Kao i svaku web-stranicu, Ladicu poslužuje pružatelj usluge hostinga (Cloudflare Pages). Pri svakom posjetu on može u tehničke svrhe (sigurnost i isporuka sadržaja) privremeno zabilježiti podatke kao što je IP adresa. Ti su podaci nužni za rad svake web-stranice, ne koriste se za praćenje i mi ih ne pohranjujemo.',
   'privacy.h.backup': 'Sigurnosna kopija (izvoz i uvoz)',
   'privacy.p.backup':
-    'U aplikaciji možete izvesti sve svoje linkove u datoteku (.json) i kasnije ih uvesti — primjerice na novom telefonu. Te datoteke ostaju na vašem uređaju; mi ih ne primamo niti vidimo.',
+    'U aplikaciji možete izvesti sve svoje linkove u datoteku (.json) i kasnije ih uvesti, primjerice na novom mobitelu. Te datoteke ostaju na Vašem uređaju, a mi ih ne primamo niti vidimo.',
   'privacy.h.share': 'Dijeljenje i QR kodovi',
   'privacy.p.share':
-    'QR kodovi izrađuju se lokalno u vašem pregledniku — adresa linka ne šalje se nijednoj vanjskoj usluzi. Kad podijelite link, dijeljenje obavlja vaš uređaj odnosno operativni sustav.',
+    'QR kodovi izrađuju se lokalno u Vašem pregledniku, pa se adresa linka ne šalje nijednoj vanjskoj usluzi. Kad podijelite link, dijeljenje obavlja Vaš uređaj, odnosno njegov operativni sustav.',
   'privacy.h.rights': 'Vaša prava',
   'privacy.p.rights':
-    'Bez prijave ne prikupljamo niti pohranjujemo vaše osobne podatke, pa vašim podacima upravljate sami, izravno na uređaju. Ako uključite sinkronizaciju, prema GDPR-u imate pravo na pristup, ispravak, brisanje, ograničenje i prigovor — brisanje možete provesti odmah putem <em>„Obriši račun”</em>, a za ostala se prava javite na <a href="mailto:ladica@hrvalabs.net">ladica@hrvalabs.net</a>. U svakom slučaju imate pravo na pritužbu Agenciji za zaštitu osobnih podataka (AZOP, <a href="https://azop.hr">azop.hr</a>).',
+    'Bez prijave ne prikupljamo niti pohranjujemo Vaše osobne podatke, pa svojim podacima upravljate sami, izravno na uređaju. Ako uključite sinkronizaciju, prema GDPR-u imate pravo na pristup, ispravak, brisanje, ograničenje obrade i prigovor. Brisanje možete provesti odmah opcijom <em>„Obriši račun”</em>, a za ostala prava javite nam se na <a href="mailto:ladica@hrvalabs.net">ladica@hrvalabs.net</a>. U svakom slučaju imate pravo podnijeti pritužbu Agenciji za zaštitu osobnih podataka (AZOP, <a href="https://azop.hr">azop.hr</a>).',
   'privacy.h.terms': 'Uvjeti korištenja („kakva jest”)',
   'privacy.p.terms':
-    'Ladica je besplatan hobi-projekt koji se pruža „kakva jest” i „kako je dostupna”, bez ikakvih jamstava — izričitih ili prešutnih. Ne jamčimo neprekidan rad, trajnost spremljenih linkova niti dostupnost usluge. Usluga se može promijeniti, prestati raditi ili biti ugašena u bilo kojem trenutku bez prethodne najave. Stranicu koristite na vlastitu odgovornost i sami ste odgovorni za linkove koje spremate.',
+    'Ladica je besplatan hobi-projekt i nudi se „kakva jest” i „kako je dostupna”, bez ikakvih izričitih ili prešutnih jamstava. Ne jamčimo neprekidan rad, trajnost spremljenih linkova niti dostupnost usluge. Usluga se u bilo kojem trenutku i bez prethodne najave može promijeniti, prestati raditi ili ugasiti. Stranicu koristite na vlastitu odgovornost i sami ste odgovorni za linkove koje spremate.',
   'privacy.h.liability': 'Ograničenje odgovornosti',
   'privacy.p.liability':
-    'U najvećoj mjeri dopuštenoj propisima, autor ne odgovara za bilo kakvu štetu nastalu korištenjem ili nemogućnošću korištenja Ladice, uključujući gubitak spremljenih linkova. Na ove se uvjete primjenjuje pravo Republike Hrvatske.',
+    'U najvećoj mjeri dopuštenoj propisima autor ne odgovara ni za kakvu štetu nastalu korištenjem ili nemogućnošću korištenja Ladice, uključujući gubitak spremljenih linkova. Na ove se uvjete primjenjuje pravo Republike Hrvatske.',
   'privacy.h.changes': 'Izmjene',
   'privacy.p.changes':
-    'Ovaj dokument možemo povremeno ažurirati. Datum zadnje izmjene naveden je na vrhu stranice.',
+    'Ovaj dokument možemo povremeno ažurirati. Datum posljednje izmjene naveden je na vrhu stranice.',
   'privacy.h.contact': 'Kontakt',
   'privacy.p.contact':
-    'Za sva pitanja javite se na <a href="mailto:ladica@hrvalabs.net">ladica@hrvalabs.net</a>.',
-  'privacy.note': 'Ovaj je tekst informativne naravi.',
+    'Za sva pitanja javite nam se na <a href="mailto:ladica@hrvalabs.net">ladica@hrvalabs.net</a>.',
+  'privacy.note': 'Ovaj je tekst informativne naravi i nije pravni savjet.',
 
   // ── Language switcher ───────────────────────────────────────────────────
   'lang.switchAria': 'Jezik',
