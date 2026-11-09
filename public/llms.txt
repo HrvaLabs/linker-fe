@@ -1,0 +1,21 @@
+# Ladica
+
+> Ladica is a free link saver for saving links and opening them with one tap. It is a Croatian, mobile-first, local-first web app (PWA) that works without an account.
+
+Ladica keeps your links together and sorts them by category, such as recipes, shopping, travel and work. Signed out, links stay in the browser's local storage and nothing leaves the device; there is no analytics and there are no external scripts. Signing in (Google or an e-mail link) is optional and turns on sync across devices. The app can be installed on a phone or computer and works offline. The site is available in Croatian and English.
+
+- Name: Ladica, a HrvaLabs project (https://hrvalabs.net/)
+- Author: Karlo Hrvačić (https://karlo.cc)
+- Languages: Croatian, English
+
+## Pages
+
+- [Ladica (Croatian)](https://ladica.hrva.cc/landing/): what Ladica is and how it works
+- [Ladica (English)](https://ladica.hrva.cc/en/landing/): what Ladica is and how it works
+- [Privacy policy (Croatian)](https://ladica.hrva.cc/privacy/): what is stored and where
+- [Privacy policy (English)](https://ladica.hrva.cc/en/privacy/): what is stored and where
+
+## Source
+
+- [Frontend source code](https://github.com/HrvaLabs/linker-fe): Astro and Svelte app
+- [Sync backend source code](https://github.com/HrvaLabs/linker-be): backend for optional sync
