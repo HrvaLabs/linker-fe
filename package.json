@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
-    "@astrojs/svelte": "^9.1.0",
+    "@astrojs/svelte": "^9.1.2",
     "astro": "^7.4.1",
     "qrcode": "^1.5.4",
     "svelte": "^5.57.2"
