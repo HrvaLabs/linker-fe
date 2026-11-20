@@ -6,8 +6,9 @@ deployed at [ladica.hrva.cc](https://ladica.hrva.cc).
 
 Source repository: [HrvaLabs/linker-fe](https://github.com/HrvaLabs/linker-fe).
 
-Signed out, links live only in the browser (`localStorage`) — no accounts, no
-analytics, no external scripts, nothing leaves the device. Sign-in is optional:
+Signed out, links live only in the browser (`localStorage`) and never leave the
+device — no accounts, no external scripts of its own. Page visits are counted
+with Cloudflare's cookieless Web Analytics, which Cloudflare injects into every page. Sign-in is optional:
 it turns on cross-device sync against the Ladica Sync backend (see
 [optional sync](#optional-sync)).
 

@@ -107,7 +107,7 @@ const hr: Record<string, string> = {
   'landing.cta.p': 'Bez prijave i bez čekanja: prvi link spremiš za nekoliko sekundi.',
   'landing.cta.btn': 'Otvori aplikaciju',
   'landing.footTagline':
-    'Ladica – tvoja ladica za linkove. Radi bez interneta i ne prati te.',
+    'Ladica – tvoja ladica za linkove. Radi i bez interneta.',
 
   // ── Privacy & terms ─────────────────────────────────────────────────────
   'privacy.title': 'Privatnost i uvjeti korištenja · Ladica',
@@ -116,9 +116,9 @@ const hr: Record<string, string> = {
   'privacy.topbarBack': 'Natrag u aplikaciju',
   'privacy.h1': 'Privatnost i uvjeti korištenja',
   'privacy.updatedLabel': 'Posljednja izmjena:',
-  'privacy.updated': '26. lipnja 2026.',
+  'privacy.updated': '20. studenoga 2026.',
   'privacy.tldr':
-    '<strong>Ukratko:</strong> Ladica ne traži registraciju. Dok niste prijavljeni, ne koristi kolačiće, ne prikuplja osobne podatke i ne prati korisnike, a Vaši se linkovi spremaju isključivo na Vašem uređaju (u pregledniku). Nema analitike, oglasa ni profiliranja. Sinkronizacija je neobvezna: ako se prijavite, Vaša adresa e-pošte i linkovi čuvaju se na našem poslužitelju kako bi bili dostupni na svim Vašim uređajima (v. odjeljak „Kad se prijavite”).',
+    '<strong>Ukratko:</strong> Ladica ne traži registraciju. Dok niste prijavljeni, ne koristi kolačiće i ne prikuplja osobne podatke, a Vaši se linkovi spremaju isključivo na Vašem uređaju (u pregledniku). Posjete stranicama broji Cloudflareova analitika bez kolačića. Nema oglasa ni profiliranja. Sinkronizacija je neobvezna: ako se prijavite, Vaša adresa e-pošte i linkovi čuvaju se na našem poslužitelju kako bi bili dostupni na svim Vašim uređajima (v. odjeljak „Kad se prijavite”).',
   'privacy.h.who': 'Tko stoji iza Ladice',
   'privacy.p.who':
     'Ladica (<a href="https://ladica.hrva.cc">ladica.hrva.cc</a>) besplatan je hobi-projekt platforme <a href="https://hrvalabs.net">HrvaLabs.net</a>, koja je ujedno voditelj obrade podataka u smislu članka 4. točke 7. Opće uredbe o zaštiti podataka (GDPR). Kontakt: <a href="mailto:ladica@hrvalabs.net">ladica@hrvalabs.net</a>.',
@@ -136,9 +136,9 @@ const hr: Record<string, string> = {
     '<strong>Tokeni za prijavu.</strong> Link za prijavu i token (JWT) koji Vas drži prijavljenima tehnički su nužni za sinkronizaciju i ne koriste se za praćenje.',
   'privacy.p.signinDelete':
     '<strong>Brisanje računa.</strong> U aplikaciji u svakom trenutku možete odabrati <em>„Obriši račun”</em>. Time se Vaš račun i svi linkovi pohranjeni u oblaku trajno brišu s poslužitelja, a linkovi spremljeni lokalno na uređaju ostaju kod Vas.',
-  'privacy.h.cookies': 'Kolačići i praćenje',
+  'privacy.h.cookies': 'Kolačići i analitika',
   'privacy.p.cookies':
-    'Ladica ne koristi kolačiće ni analitiku (npr. Google Analytics), ne učitava vanjske skripte i ne prati Vaše ponašanje. Koristi sistemske fontove, one koje Vaš uređaj već ima, pa se ništa ne dohvaća s vanjskih poslužitelja fontova.',
+    'Ladica ne koristi kolačiće. Posjete stranicama broje se alatom Cloudflare Web Analytics: Cloudflare, koji isporučuje Ladicu, sam na svaku stranicu dodaje skriptu tog alata. Skripta šalje adresu stranice, adresu stranice s koje ste došli i vrijeme učitavanja, a Cloudflare pritom vidi Vašu IP adresu, kao i pri svakom zahtjevu. Skripta ne postavlja kolačiće, ništa ne sprema u Vaš preglednik i ne dodjeljuje identifikatore. Više o tome pročitajte u <a href="https://www.cloudflare.com/privacypolicy/">Cloudflareovim pravilima privatnosti</a>. Drugih alata za analitiku ili praćenje (npr. Google Analytics) nema, a sama Ladica ne učitava vanjske skripte. Koristi sistemske fontove, one koje Vaš uređaj već ima, pa se ništa ne dohvaća s vanjskih poslužitelja fontova.',
   'privacy.h.technical': 'Tehnički nužni podaci',
   'privacy.p.technical':
     'Kao i svaku web-stranicu, Ladicu poslužuje pružatelj usluge hostinga (Cloudflare Pages). Pri svakom posjetu on može u tehničke svrhe (sigurnost i isporuka sadržaja) privremeno zabilježiti podatke kao što je IP adresa. Ti su podaci nužni za rad svake web-stranice, ne koriste se za praćenje i mi ih ne pohranjujemo.',
@@ -262,7 +262,7 @@ const en: Record<string, string> = {
   'landing.cta.p': 'No sign-in and no waiting — save your first link in a couple of seconds.',
   'landing.cta.btn': 'Open the app',
   'landing.footTagline':
-    'Ladica — your drawer for links. Works offline, never tracks you.',
+    'Ladica — your drawer for links. Works offline.',
 
   // ── Privacy & terms ─────────────────────────────────────────────────────
   'privacy.title': 'Privacy & Terms of Use · Ladica',
@@ -271,9 +271,9 @@ const en: Record<string, string> = {
   'privacy.topbarBack': 'Back to the app',
   'privacy.h1': 'Privacy & Terms of Use',
   'privacy.updatedLabel': 'Last updated:',
-  'privacy.updated': 'June 26, 2026',
+  'privacy.updated': 'November 20, 2026',
   'privacy.tldr':
-    '<strong>In short:</strong> Without signing in, Ladica requires no registration, uses no cookies, collects no personal data and does not track users — your links are stored exclusively on your device (in your browser). No analytics, no ads, no profiling. Sync is optional: if you sign in, your email and links are kept on our server so they are available on all your devices (see “When you sign in”).',
+    '<strong>In short:</strong> Without signing in, Ladica requires no registration, uses no cookies and collects no personal data — your links are stored exclusively on your device (in your browser). Page visits are counted with Cloudflare’s cookieless analytics. No ads, no profiling. Sync is optional: if you sign in, your email and links are kept on our server so they are available on all your devices (see “When you sign in”).',
   'privacy.h.who': 'Who is behind Ladica',
   'privacy.p.who':
     'Ladica (<a href="https://ladica.hrva.cc">ladica.hrva.cc</a>) is a free hobby project of the <a href="https://hrvalabs.net">HrvaLabs.net</a> platform, which is also the data controller within the meaning of Article 4(7) of the General Data Protection Regulation (GDPR). Contact: <a href="mailto:ladica@hrvalabs.net">ladica@hrvalabs.net</a>.',
@@ -291,9 +291,9 @@ const en: Record<string, string> = {
     '<strong>Sign-in tokens.</strong> The sign-in link and the token (JWT) that keeps you signed in are technically necessary for sync to work and are not used for tracking.',
   'privacy.p.signinDelete':
     '<strong>Account deletion.</strong> At any time you can choose <em>“Delete account”</em> in the app — this permanently deletes your account and all links stored in the cloud from the server. Links saved locally on your device remain with you.',
-  'privacy.h.cookies': 'Cookies and tracking',
+  'privacy.h.cookies': 'Cookies and analytics',
   'privacy.p.cookies':
-    'Ladica uses no cookies, no analytics (e.g. Google Analytics), loads no external scripts and does not track your behaviour. Fonts are system fonts (the ones your device already has), so nothing is fetched from external font servers.',
+    'Ladica uses no cookies. Page visits are counted with Cloudflare Web Analytics: Cloudflare, which serves Ladica, adds the tool’s script to every page itself. The script sends the page address, the page you came from and how long the page took to load, and Cloudflare sees your IP address, as with any request. The script sets no cookies, stores nothing in your browser and assigns no identifiers. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare’s privacy policy</a>. There is no other analytics or tracking tool (such as Google Analytics), and Ladica itself loads no external scripts. Fonts are system fonts (the ones your device already has), so nothing is fetched from external font servers.',
   'privacy.h.technical': 'Technically necessary data',
   'privacy.p.technical':
     'Like every website, Ladica is served through a hosting provider (Cloudflare Pages). On each visit the provider may, for technical purposes (security and content delivery), temporarily log data such as your IP address. This is necessary for any website to work, is not used for tracking, and we do not store it.',
